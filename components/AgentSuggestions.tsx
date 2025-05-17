@@ -19,7 +19,7 @@ const AgentSuggestions: React.FC<AgentSuggestionsProps> = ({ suggestions, title 
             key={index} 
             className="p-3 bg-white rounded-md border border-gray-100 text-gray-700 text-sm shadow-sm hover:bg-gray-50 transition-colors duration-150"
           >
-            "{suggestion}"
+            &quot;{suggestion}&quot;
           </li>
         ))}
       </ul>
