@@ -74,9 +74,9 @@ export function ConvAI() {
                     <CardHeader>
                         <CardTitle className={'text-center'}>
                             {isConnected ? (
-                                isSpeaking ? `Agent is speaking` : 'Agent is listening'
+                                isSpeaking ? ` 🗣️ Teacher is speaking` : '👂🏽 Teacher is listening'
                             ) : (
-                                'Disconnected'
+                                '🚫 Disconnected'
                             )}
                         </CardTitle>
                     </CardHeader>
@@ -94,7 +94,7 @@ export function ConvAI() {
                             disabled={conversation !== null && isConnected}
                             onClick={startConversation}
                         >
-                            Start conversation
+                            Start Learning!
                         </Button>
                         <Button
                             variant={'outline'}
@@ -103,7 +103,7 @@ export function ConvAI() {
                             disabled={conversation === null && !isConnected}
                             onClick={endConversation}
                         >
-                            End conversation
+                            Stop Learning
                         </Button>
                     </div>
                 </CardContent>

@@ -1,0 +1,144 @@
+intents:
+  - name: greet_and_introduce
+    description: User wants to greet or introduce themselves
+    examples:
+      - "Hi, how do I say hello in Hindi?"
+      - "How do I introduce myself?"
+      - "What's the Hindi for 'my name is...'"
+    responses:
+      - "You can say: **Namaste** — Hello"
+      - "To introduce yourself: **Mera naam [your name] hai**"
+      - "To ask someone’s name: **Aapka naam kya hai?**"
+    metadata:
+      goal: Learn basic greetings and introductions
+      tags: [#greetings, #basics]
+      difficulty: beginner
+
+  - name: ask_for_directions
+    description: User wants to navigate or ask for directions
+    examples:
+      - "How do I ask where something is?"
+      - "What's 'left' and 'right' in Hindi?"
+      - "How to say stop here?"
+    responses:
+      - "**[Place] kaise jaana hai?** — How do I get to [place]?"
+      - "**Seedha** — straight, **Daayein** — right, **Baayein** — left"
+      - "**Yahin roko** — Stop here"
+    metadata:
+      goal: Navigate Delhi streets and transport
+      tags: [#navigation, #transport]
+      difficulty: beginner
+
+  - name: order_food
+    description: User wants to order food or drinks
+    examples:
+      - "How do I order food in Hindi?"
+      - "What do I say to ask for less spicy food?"
+    responses:
+      - "**Ek plate [dish] dena** — One plate of [dish], please"
+      - "**Zyada teekha mat dena** — Not too spicy"
+      - "**Main shaakahari hoon** — I’m vegetarian"
+    metadata:
+      goal: Order food and express dietary preferences
+      tags: [#food, #restaurant]
+      difficulty: beginner
+
+  - name: hotel_checkin
+    description: User wants to ask for hotel-related needs
+    examples:
+      - "How do I ask for a room?"
+      - "What’s hot water in Hindi?"
+      - "How do I ask for Wi-Fi?"
+    responses:
+      - "**Kya khaali kamra hai?** — Do you have a room?"
+      - "**Pani garam hai?** — Is there hot water?"
+      - "**Wi-Fi ka password kya hai?** — What’s the Wi-Fi password?"
+    metadata:
+      goal: Handle hotel check-in and stay needs
+      tags: [#accommodation]
+      difficulty: beginner
+
+  - name: shopping_and_bargaining
+    description: User wants to buy something or negotiate
+    examples:
+      - "How do I ask the price of something?"
+      - "What's the phrase for too expensive?"
+      - "How to bargain?"
+    responses:
+      - "**Yeh kitne ka hai?** — How much is this?"
+      - "**Bahut mehenga hai!** — Too expensive!"
+      - "**Thoda kam karo** — Lower the price"
+    metadata:
+      goal: Buy items and negotiate prices
+      tags: [#market, #shopping]
+      difficulty: beginner
+
+  - name: phone_sim_help
+    description: User needs help with SIM or phone connectivity
+    examples:
+      - "How do I ask for a SIM card?"
+      - "How to say my internet isn’t working?"
+    responses:
+      - "**SIM card chahiye** — I need a SIM card"
+      - "**Network kaam nahi kar raha** — The network isn’t working"
+      - "**Data pack chahiye** — I need a data pack"
+    metadata:
+      goal: Set up phone or data services
+      tags: [#connectivity, #tech]
+      difficulty: beginner
+
+  - name: health_emergency
+    description: User wants help in medical or urgent situations
+    examples:
+      - "What’s the Hindi for I need help?"
+      - "How do I explain I’m sick?"
+    responses:
+      - "**Mujhe madad chahiye** — I need help"
+      - "**Main beemar hoon** — I’m sick"
+      - "**Bukhaar hai** — I have a fever"
+    metadata:
+      goal: Seek help or describe health issues
+      tags: [#emergency, #health]
+      difficulty: beginner
+
+  - name: polite_phrases
+    description: User wants to learn polite or respectful expressions
+    examples:
+      - "How do I say thank you?"
+      - "How to apologize politely in Hindi?"
+    responses:
+      - "**Dhanyavaad / Shukriya** — Thank you"
+      - "**Maaf kijiye** — Sorry / Excuse me"
+      - "**Kripya** — Please
+    metadata:
+      goal: Speak politely and respectfully
+      tags: [#etiquette, #cultural]
+      difficulty: beginner
+
+  - name: numbers_and_time
+    description: User wants to understand time, days, and basic counting
+    examples:
+      - "How do I ask for the time?"
+      - "How do I count from 1 to 10?"
+    responses:
+      - "**Kitne baje?** — What time is it?"
+      - "**Ek, do, teen, chaar...** — 1, 2, 3, 4..."
+      - "**Aaj / Kal / Parso** — Today / Tomorrow / Day after"
+    metadata:
+      goal: Use time and numbers in daily conversation
+      tags: [#time, #numbers]
+      difficulty: beginner
+
+  - name: small_talk
+    description: User wants to make friendly small talk
+    examples:
+      - "How do I say 'how are you?'"
+      - "What's a simple way to chat in Hindi?"
+    responses:
+      - "**Aap kaise ho?** — How are you?"
+      - "**Main theek hoon** — I’m fine"
+      - "**Dilli acchi jagah hai** — Delhi is a nice place"
+    metadata:
+      goal: Build rapport and connect casually
+      tags: [#conversation, #casual]
+      difficulty: beginner
