@@ -28,7 +28,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
 
                 <div className={"flex gap-4 justify-end"}>
                     <Link
-                        href="https://github.com/jonatanvm/convai-demo"
+                        href="https://github.com/tushar-dadlani/convai-demo"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={"py-0.5"}
